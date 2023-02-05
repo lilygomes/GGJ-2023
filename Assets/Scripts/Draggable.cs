@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,7 +9,7 @@ using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
 
-public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
+public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler {
 	public bool dragOnSurfaces = true;
 
 	private RectTransform _draggingPlane;
@@ -17,15 +18,37 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 		var canvas = GetParentCanvas(gameObject);
 		if (canvas == null)
 			return;
+
+		if (dragOnSurfaces)
+			_draggingPlane = transform as RectTransform;
+		else
+			_draggingPlane = canvas.transform as RectTransform;
+
+		SetDraggedPosition(eventData);
+	}
+
+	private void SetDraggedPosition(PointerEventData eventData) {
+		if (dragOnSurfaces &&
+		    eventData.pointerEnter != null &&
+		    eventData.pointerEnter.transform as RectTransform != null)
+			_draggingPlane = eventData.pointerEnter.transform as RectTransform;
+
+		var rectTransform = _draggingPlane.GetComponent<RectTransform>();
+		
+		Vector3 globalMousePos;
+		if (RectTransformUtility.ScreenPointToWorldPointInRectangle(_draggingPlane, eventData.position, eventData.pressEventCamera, out globalMousePos)) {
+			rectTransform.position = globalMousePos;
+			rectTransform.rotation = _draggingPlane.rotation;
+		}
 	}
 
 	public void OnDrag(PointerEventData eventData) {
-		throw new System.NotImplementedException();
+		SetDraggedPosition(eventData);
 	}
 
-	public void OnEndDrag(PointerEventData eventData) {
-		throw new System.NotImplementedException();
-	}
+	// public void OnEndDrag(PointerEventData eventData) {
+	// 	throw new System.NotImplementedException();
+	// }
 
 	public static Canvas GetParentCanvas(GameObject obj) {
 		if (obj == null)
