@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Desktop
+  - Windows
+  - Taskbar
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 667009141
+    locked: 0
+  - name: Desktop
+    uniqueID: 2351870427
+    locked: 0
+  - name: Windows
+    uniqueID: 777173205
+    locked: 0
+  - name: Taskbar
+    uniqueID: 4149028941
     locked: 0
