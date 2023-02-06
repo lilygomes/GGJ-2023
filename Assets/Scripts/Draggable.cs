@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -30,7 +27,8 @@ public class Draggable : MonoBehaviour, IBeginDragHandler, IDragHandler {
 	private void SetDraggedPosition(PointerEventData eventData) {
 		if (dragOnSurfaces &&
 		    eventData.pointerEnter != null &&
-		    eventData.pointerEnter.transform as RectTransform != null)
+		    eventData.pointerEnter.transform as RectTransform != null &&
+		    eventData.pointerEnter.layer == 10) // Checks that object is on Layer 10: Draggable
 			_draggingPlane = eventData.pointerEnter.transform as RectTransform;
 
 		var rectTransform = _draggingPlane.GetComponent<RectTransform>();
