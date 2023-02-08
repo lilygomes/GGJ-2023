@@ -330,6 +330,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a74aa680a686ae442b133c67ec901664, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: e30e0102591822a4b97e9c7025a43535, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: BassIM
@@ -623,6 +631,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d066bf26a01af5c4597fd01333934b35, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: a05908fc33170604c944eb7ef7683ccd, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: My Documents
@@ -742,6 +758,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8b25390009d20eb4ca15fc678ea2b589, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: b16bef1bb2fe8e949871f8bd9ec5fdf6, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: New Folder (1)
@@ -928,7 +952,15 @@ PrefabInstance:
     - target: {fileID: 5937937343976399121, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6bd7c0eafccae92479d91091c9734c64, type: 3}
+      objectReference: {fileID: 21300000, guid: 2d0d827fb3f113348838c36ae04bb048, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: f59b37a84391bb0438de6e627c45686b, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: Trashcan
@@ -1048,6 +1080,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: fdfc82163ef44e2459a36951529c2f89, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 3afd2fbc8ff58c84db4e537f9c4b8762, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: photos.zip
@@ -1167,6 +1207,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 16dbd8438837e8e419415faaf1a00883, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 3455113e86e5a04468014c8a8a6efdeb, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: GoSurf
@@ -1286,6 +1334,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8b25390009d20eb4ca15fc678ea2b589, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: b16bef1bb2fe8e949871f8bd9ec5fdf6, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 77223946}
     - target: {fileID: 5937937343976399126, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: m_Name
       value: New Folder
@@ -1507,6 +1563,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0a750fbd0b3df5248ab4b7f00a676a98, type: 3}
+    - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 8d9e079f508b50e41821a7c3b8afdd94, type: 3}
     - target: {fileID: 5937937343976399123, guid: 27ffbb4d00ceb1445a946426eb50b2c4, type: 3}
       propertyPath: canvas
       value: 
