@@ -17,8 +17,7 @@ public class CreateWindow : MonoBehaviour
         _button.onClick.AddListener(OnMouseDown);
     }
 
-    void OnMouseDown()
-    {
+    void OnMouseDown() {
         var instance = Instantiate(program, canvas.transform);
         var instanceIcon = instance.transform.Find("Icon");
         instanceIcon.GetComponent<Image>().sprite = icon;
